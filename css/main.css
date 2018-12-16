@@ -1,0 +1,766 @@
+/* ---------- Fonts 'Museo Sans 100, 300, 700' ---------- */
+
+@import url(fonts.css); 
+
+/* ---------------------- Specification ---------------------- */
+
+@import url(specification.css);
+
+
+/* --------------------------- (HOME) --------------------------- */
+
+
+/* ---------------------- Header ---------------------- */
+
+
+/* ----------------- Hat ----------------- */
+.header-main {
+    background: url('../images/bg.jpg') no-repeat center top / cover;
+}
+.hat-trap {
+    border-top: 5px solid #58647a;
+    border-bottom: 4px solid rgba(88, 100, 122, 0.21);
+    background-color: rgba(191, 194, 200, 0.41);
+    padding: 17px 0 7px;
+}
+.logo {
+    position: relative;
+    display: block;
+}
+.spin {
+    opacity: 0;
+    position: absolute;
+    left: 277px;
+    top: -18px;
+    font-size: 26px;
+    color: #fff;
+}
+.logo:hover .spin {
+    opacity: 0.9;
+    transition: all 1.5s ease;
+}
+.menu__item {
+    position: relative;
+}
+.menu li a:hover:after {
+    content: '';
+    display: block;
+    height: 4px;
+    width: 100%;
+    border-radius: 100px;
+    position: absolute;
+    margin-top: 32px;
+    background: #b81c31;
+ }
+.menu a{
+    color: #3f4b60;
+    font-size: 17px;
+}
+.btn i {
+    color: #46e6b0;
+    display: block;
+    margin-right: 5px;
+    margin-top: 3px;
+}
+.burger {
+    font-size: 26px;
+    color: #3f4b60;
+}
+/* ----------------- Offer ----------------- */
+.offer-trap {
+    border-bottom: 16px solid rgba(255, 255, 255, 0.15);
+}
+.offer__text {
+    font-family: 'Museo Sans 100';
+    width: 460px;
+    font-size: 29px;
+    color: #081d42;
+    line-height: 1.23em;
+    margin-top: 5px;  
+}
+.offer__elements {
+    width: 174px;
+    border-radius: 3px;
+    border: 3px solid rgba(255, 255, 255, 0.66);
+    background-color: rgba(255, 255, 255, 0.82);
+    margin-top: 28px;
+    margin-bottom: 133px;
+    padding: 0 7px;
+}
+.offer__elements a {
+    width: 30px;
+    height: 30px;
+    font-size: 17px;
+    margin: 6px;
+}
+.social-icon i {
+    padding: 4px 5px 5px 6px;
+}
+.offer__facebook i {
+    color: #3d6ca8;
+    border: 2px solid #3d6ca8;
+}
+.offer__facebook i:hover {
+    color: rgba(255, 255, 255, 0.82);
+    background-color: #3d6ca8;
+}
+.offer__twitter i {
+    color: #04bedf;
+    border: 2px solid #04bedf;
+}
+.offer__twitter i:hover {
+    color: rgba(255, 255, 255, 0.82);
+    background-color: #04bedf;
+}
+.offer__telegram i {
+    color: #25a3d4;
+    border: 2px solid #25a3d4;
+}
+.offer__telegram i:hover {
+    color: rgba(255, 255, 255, 0.82);
+    background-color: #25a3d4;
+}
+
+/* ---------------------- Trust ---------------------- */
+.trust {
+    background-color: #f1f1f3;
+    padding: 53px 0 101px 0;
+    border-bottom: 16px solid #fff;
+    position: relative;
+}
+.questions {
+
+}
+.what, .how, .why {
+    text-align: center;
+}
+.what__element {
+    background-color: #c8cbdb;
+    width: 119px;
+    height: 119px;
+    border-radius: 100px;
+    text-align: center;
+    padding-top: 28px;
+    margin: 0 auto;
+    margin-bottom: 20px;
+    border: 2px solid transparent;
+}
+.what__text {
+    color: #404048;
+    font-family: 'Museo Sans 300';
+    letter-spacing: 0.02em;
+    line-height: 1.22em;
+    margin-top: 12px;
+}
+.trust__btn {
+    width: 170px;
+    font-size: 16px;
+    padding: 10px 0;
+    position: absolute;
+    left: 50%;
+    top: 77px;
+    transform: translateX(-50%);
+}
+
+/* ---------------------- News ---------------------- */
+.news {
+    padding: 87px 0 78px;
+}
+.news__element {
+    text-align: center;
+}
+.news__icon {
+    font-family: 'Museo Sans 100';
+    font-size: 50px;
+    width: 86px;
+    height: 86px;
+    background-color: #102e62;
+    border-radius: 100px;
+    margin: 0 auto;
+    padding-top: 5px;
+    margin-bottom: 7px;
+}
+.news__text {
+    color: #404048;
+    font-family: 'Museo Sans 300';
+    letter-spacing: 0.02em;
+    line-height: 1.22em;
+    margin-top: 12px;
+}
+
+/* ---------------------- Mission ---------------------- */
+.mission {
+    background: url(../images/bg-mission.jpg) no-repeat center top / cover;
+    padding: 39px 0 43px;
+}
+.mission h4 {
+    border-radius: 1px;
+    border-bottom: 3px solid rgba(255, 255, 255, 0.15);
+    padding-bottom: 10px;
+}
+.mission__text {
+    font-family: 'Museo Sans 300';
+    font-size: 15px;
+    opacity: 0.67;
+    padding: 12px 25px 6px 0;
+    letter-spacing: 0.002em;
+    line-height: 1.22em;
+}
+.mission__btn {
+    font-size: 16px;
+    width: 173px;
+    color: rgba(255, 255, 255, 0.72);
+    background: transparent;
+    border: 2px solid rgba(255, 255, 255, 0.69);
+    margin-top: 36px;
+    margin-left: 2px;
+}
+.mission__btn:hover {
+    background: rgba(255, 255, 255, 0.72);
+    color: #616c81;
+    border: 2px solid rgba(255, 255, 255, 0.69);
+}
+.mission__btn:hover:active {
+    box-shadow: 0 0 12px rgba(97, 108, 129, 0.5) inset;
+}
+.mission__card {
+    margin-top: 20px;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.1);
+    padding-bottom: 10px;
+}
+.mission__card img{
+    margin: auto;
+    margin-top: 0;
+}
+.mission__inform {
+    font-size: 12.5px;
+    opacity: 0.75;
+    margin-left: 11px;
+    padding-right: 10px;
+    letter-spacing: 0.002em;
+    line-height: 1.22em;
+}
+.mission__inform a:hover {
+    text-decoration: underline;
+}
+.mission__date {
+    font-family: 'Museo Sans 100';
+    font-size: 10px;
+    opacity: 0.43;
+    margin-top: 10px;
+    margin-left: 4px;
+}
+
+/* ---------------------- Links ---------------------- */
+.links {
+    background: url(../images/bg-links.jpg) no-repeat center top / cover;
+    padding: 40px 0 43px;
+}
+.links__company {
+    margin-bottom: 44px;
+}
+.links h6 {
+    margin-bottom: 15px;
+    opacity: 0.66;
+    color: #fff;
+}
+.links__press {
+    margin-bottom: 66px;
+}
+.links__service {
+    margin-bottom: 86px;
+}
+.links__elements {
+    opacity: 0.46;
+    font-family: "Museo Sans Cyrl 300";
+}
+.links a:hover {
+    text-decoration: underline;
+}
+/* ---------------------- Footer ---------------------- */
+.footer {
+    background-color: #1f2531;
+    border-bottom: 18px solid #606c81;
+    padding-bottom: 43px;
+    font-family: "Museo Sans Cyrl 100";
+    font-size: 12px;
+}
+.footer__text {
+    opacity: 0.52;
+    margin-top: 15px;
+    letter-spacing: 0.002em;
+    line-height: 1.22em;
+}
+.top-text {
+    margin-top: 36px;
+}
+.dezign {
+    margin-top: 40px;
+}
+.footer__book {
+    font-size: 15px;
+    opacity: 0.63;
+    width: 25px;
+    height: 25px;
+    border: 1px solid #fff;
+    text-align: center;
+}
+.footer__text_info {
+    margin-top: 0;
+    margin-left: 10px;
+    font-size: 10px;
+}
+.rights {
+    margin-top: 25px;
+}
+.footer__text_info span {
+    font-size: 12px;
+}
+.footer__text_width {
+    font-family: 'Museo Sans 700';
+}
+.footer__link {
+    text-decoration: underline;
+    opacity: 0.45;
+}
+.footer__link:hover {
+    text-decoration: underline;
+}
+.footer__phone {
+    margin-top: 67px;
+}
+
+
+
+
+
+/* --------------------------- (ABOUT) --------------------------- */
+
+
+/* ---------------------- Header ---------------------- */
+
+
+/* ----------------- Hat ----------------- */
+.header {
+    background: none;
+    background-color: rgba(241, 241, 243, 0.34);
+}
+
+/* ----------------- About ----------------- */
+.about {
+    padding: 62px 0 67px;
+}
+.title-main {
+    font-size: 38px;
+    margin: 0;
+}
+.path {
+    font-family: 'Museo Sans 300';
+    font-size: 16px;
+    color: #7e838d;
+    margin-top: 8px;
+}
+.path a {
+    text-decoration: underline;
+    color: #49556b;
+}
+.path__arrow {
+    font-size: 12px;
+    margin-top: 2px;
+}
+.about__menu {
+    margin-top: 17px;
+}
+.menu-hover a{
+    color: #a1a6af;
+    font-size: 16px;
+    border: 2px solid transparent;
+    padding: 11px 10px 12px 13px;
+}
+.menu-hover a:hover {
+    border: 2px solid #b81c31;
+    padding: 11px 10px 12px 13px;
+    color: #b81c31;
+}
+
+/* ---------------------- Advantages ---------------------- */
+.advantages {
+    padding: 52px 0 52px;
+}
+.trap-top {
+    border-bottom: 2px solid #e5e6e8;
+    padding-bottom: 53px;
+}
+.advantages h2 {
+    text-align: left;
+    letter-spacing: 0.025em;
+    margin-bottom: 29px;
+}
+.general-text {
+    width: 567px;
+    letter-spacing: 0.052em;
+    line-height: 1.3em;
+    color: #404048;
+    font-family: 'Museo Sans 300';
+}
+.advantages__text_first {
+    margin-right: 35px;
+}
+.advantages__text_long {
+    width: 100%;
+    margin-top: 15px;
+    letter-spacing: 0.02em;
+}
+.advantages__scale {
+    height: 60px;
+    width: 60px;
+    text-align: center;
+    padding-top: 14px;
+    border-radius: 100px;
+    border: 2px solid #102e62;
+}
+.advantages__chapter h6 {
+    font-size: 18px;
+    letter-spacing: 0.03em;
+}
+.line {
+    height: 2px;
+    width: 100%;
+    background-color: #e5e6e8;
+}
+.mtop {
+    margin: 35px 0 29px;
+}
+
+/* ---------------------- Foto ---------------------- */
+.foto {
+    margin-bottom: 70px;
+}
+.foto h2 {
+    text-align: left;
+    letter-spacing: 0.025em;
+}
+.foto__pictures {
+    position: relative;
+}
+.foto__overlay {
+    font-size: 29px;
+    border: 7px solid #9a97a7;
+    background-color: rgba(58, 68, 86, 0.69);
+    text-align: center;
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    left: 0;
+    top: 0;
+    transition: all 0.5s ease;
+    opacity: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.foto__pictures:hover .foto__overlay {
+    opacity: 1;
+}
+
+
+
+
+/* --------------------------- (SERVICES) --------------------------- */
+
+/* ---------------------- Services ---------------------- */
+.services {
+    padding: 63px 0 65px;
+}
+.services__menu {
+    margin: 7px 6px 0 25px;
+}
+.menu__link {
+    display: block;
+}
+.menu__text {
+    font-size: 13px;
+    font-family: 'Museo Sans 300';
+    line-height: 1em;
+}
+
+/* ---------------------- Juristic ---------------------- */
+.juristic {
+    background: url(../images/services-foto.jpg) no-repeat center top / cover;
+    padding: 42px 0 37px;
+}
+.juristic__foto img {
+    border: 7px solid rgba(255, 255, 255, 0.39);
+    background-color: rgba(88, 94, 122, 0.2);
+    border-radius: 105px;
+    display: block;
+    margin: 12px auto 0;
+}
+.juristic__title {
+    margin-top: 29px;
+}
+.juristic__title h2 {
+    font-size: 25px;
+    color: #ffffff;
+    text-align: left;
+    margin-bottom: 21px;
+    letter-spacing: 0.015em;
+    line-height: 1em;
+}
+.juristic__text {
+    color: #ffffff;
+    width: auto;
+    padding-right: 25px;
+    margin-right: 2px;
+}
+.category {
+    border: 3px solid rgba(255, 255, 255, 0.48);
+    border-radius: 6px;
+    padding: 15px 0 12px 28px;
+}
+.category li {
+    margin-bottom: 11px;
+}
+.category a {
+    font-family: 'Museo Sans 300';
+    font-size: 15px;
+    letter-spacing: 0.031em;
+}
+.category li:before {
+    content: '→';
+    margin-right: 2px;
+    font-size: 13px;
+}
+.category span {
+    margin-right: 3px;
+}
+.category a:hover {
+    text-decoration: underline;
+}
+
+/* ---------------------- Information ---------------------- */
+.information h2 {
+    text-align: left;
+    margin: 55px 0 25px;
+    letter-spacing: 0.016em;
+}
+.information__text {
+    width: auto;
+    letter-spacing: 0.051em;
+    margin-bottom: 18px;
+}
+.consultation {
+    background: url(../images/calls.png) no-repeat bottom right;
+    width: 470px;
+    height: 193px;
+    border: 3px solid rgba(227, 228, 230, 0.9);
+    border-radius: 4px;
+    padding: 24px 0 29px 28px;
+    margin-top: 36px;
+    background-position: 97% 84%;
+    margin-bottom: 52px;
+}
+.consultation h6 {
+    font-size: 16px;
+    color: #414449;
+    margin-bottom: 17px;
+    letter-spacing: 0.02em;
+}
+.consultation__btn {
+    color: #b81c31;
+    background: transparent;
+    border: 2px solid #b81c31;
+    font-size: 14px;
+}
+.consultation__btn:hover {
+    color: #ffffff;
+    background: #b81c31;
+    border: 2px solid #b81c31;
+}
+.consultation__btn:hover:active {
+    box-shadow: 0 0 12px rgba(255,255,255,0.5) inset;
+}
+.consultation__number {
+    color: #585f6b;
+    margin-left: 14px;
+    letter-spacing: 0.02em;
+}
+.consultation__number:hover {
+    color: #585f6b;
+    text-decoration: underline;
+}
+.consultation__text {
+    font-size: 12px;
+    font-family: 'Museo Sans 300';
+    color: #888d95;
+    width: 225px;
+    margin-top: 14px;
+    line-height: 1.3em;
+    letter-spacing: 0.02em;
+}
+.navigation {
+    background-color: #fafafb;
+    padding: 50px 0 50px 0;
+    position: relative;
+}
+.navigation h6 {
+    color: #58647a;
+    font-size: 18px;
+    opacity: 0.68;
+    margin-bottom: 7px;
+    border-bottom: 1px solid rgba(227, 228, 230, 0.9);
+    padding: 0 0 41px 26px;
+}
+.navigation li:before {
+    content: '';
+    display: block;
+    width: 11px;
+    height: 11px;
+    border-radius: 2px;
+    background-color: #747487;
+    opacity: 0.57;
+    margin-right: 17px;
+}
+.navigation li {
+    position: relative;
+    padding: 8px 0 9px 27px;
+    
+    display: flex;
+    align-items: center;
+    border-bottom: 1px solid rgba(227, 228, 230, 0.9);
+}
+.navigation a {
+    color: #747487;
+    font-size: 15px;
+    letter-spacing: 0.02em;
+    display: block;
+}
+.navigation li:hover {
+    text-decoration: underline;
+}
+
+
+
+
+/* --------------------------- (CONTACTS) --------------------------- */
+
+/* ---------------------- Contacts ---------------------- */
+.contacts {
+    padding: 61px 0 67px;
+}
+.contacts__menu {
+    margin: 19px 57px 0;
+}
+
+/* ---------------------- Map ---------------------- */
+.map__bg {
+    background: url(../images/map.jpg) no-repeat center top / cover;
+    height: 443px; 
+}
+.map__trap {
+    background: rgba(122, 129, 143, 0.75);
+    padding: 17px 31px 53px 28px;
+    width: 470px;
+    border-radius: 6px;
+    position: absolute;
+    left: 18px;
+    top: -396px;
+}
+.map__top {
+    border-bottom: 2px solid rgba(255, 255, 255, 0.22);
+    border-radius: 1px;
+    padding-bottom: 12px;
+    align-items: center;
+}
+.map__top h5 {
+    color: #ffffff;
+    letter-spacing: 0.02em;
+    margin: 0;
+}
+.map__trap:before {
+    content: '';
+    display: block;
+    width: 0;
+	height: 0;
+	border-top: 23px solid transparent;
+    border-right: 23px solid rgba(122, 129, 143, 0.75);
+    border-bottom: 23px solid transparent;
+    position: absolute;
+    left: -23px;
+    top: 15px;
+}
+.map__icons {
+    width: 142px;
+}
+.map__icons a {
+    width: 30px;
+    height: 30px;
+    font-size: 17px;
+    margin: 6px;
+    border: 2px solid #fff;
+}
+.map__icons a:hover {
+    background: #fff;
+    color: rgba(122, 129, 143, 0.75);
+}
+.map__bottom {
+    padding-top: 44px;
+}
+.map__inform {
+    margin-left: 8px;
+    font-family: 'Museo Sans 300';
+}
+
+.map__element a {
+    color: #ffffff;
+    font-size: 16px;
+    font-family: 'Museo Sans 300';
+    margin-left: 4px;
+    letter-spacing: 0;
+}
+.map__element a:hover {
+    color: #fff;
+    text-decoration: underline;
+}
+.map__element i {
+    font-size: 13px;
+    padding-top: 2px;
+}
+.map__element_text {
+    margin-top: 23px;
+}
+.map__element_text i {
+    padding-top: 5px;
+}
+.map__addres {
+    margin-left: 12px;
+    font-size: 16px;
+    line-height: 1.2em;
+}
+.map__element_mail {
+    margin: 22px 0 0 4px;
+}
+.map__element_mail i {
+    font-size: 16px;
+}
+.map__chapters {
+    width: 183px;
+    margin-left: 28px;
+}
+.map__text {
+    font-size: 12px;
+    font-family: 'Museo Sans 300';
+    opacity: 0.75;
+    letter-spacing: 0em;
+    line-height: 1.2em;
+}
+.map__text_bottom {
+    margin-top: 16px;
+}
+
+
+
+
+/* ---------------------- Media Queries ---------------------- */
+
+@import url(media.css);

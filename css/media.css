@@ -1,0 +1,287 @@
+/* ---------------------- Media Queries ---------------------- */
+
+/* --------------------------- (HOME) --------------------------- */
+
+
+/* 992-1200px */
+@media screen and (max-width: 1200px) {
+	
+}
+
+/* 768-992px */
+@media screen and (max-width: 991px) {
+   .why {
+      margin-top: 50px;
+   }
+   .news__element {
+      margin-bottom: 45px;
+   }
+   .mission__news {
+      margin-top: 50px;
+   }
+   .mission__card {
+      position: relative;
+   }
+    .footer img {
+      width: 100%;
+      margin-top: 38px;
+    }
+}
+/* 576-768px */
+@media screen and (max-width: 767px) {
+   .footer img {
+      margin-top: 74px;
+    }
+}
+
+/* 320-576px */
+@media screen and (max-width: 575px) {
+   .logo__img {
+      width: 100%;
+   }
+   .phone {
+      width: 127px;
+      padding: 6px 0 5px;
+      font-size: 12px;
+      margin: 2px;
+   }
+   .burger {
+      font-size: 20px;
+      margin-top: 17px;
+      margin-top: 4px;
+      display: block;
+      margin-right: auto;
+   }
+   .menu__link {
+      margin-bottom: 11px;
+   }
+   .offer-trap h1 {
+      font-size: 40px;
+   }
+   .trust h2 {
+      font-size: 25px;
+   }
+   .offer__text {
+      width: 100%;
+      font-size: 25px;
+   }
+   .how {
+      margin-top: 50px;
+   }
+   .mission__wrap {
+      flex-direction: column;
+   }
+   .mission__elements:nth-child(2) {
+      margin-top: 29px;
+   }
+   .links {
+      text-align: center;
+   }
+   .mb-small {
+      margin-bottom: 40px;
+   }
+   .mission__card:after {
+      opacity: 0;
+   }
+   .footer img {
+      width: 60%;
+      display: block;
+      margin: 50px auto;
+      margin-bottom: 2px;
+   }
+   .dezign {
+      justify-content: center;
+   }
+   .footer__text {
+      text-align: center;
+   }
+   .rights a {
+      display: block;
+      text-align: center;
+   }
+   .footer__phone {
+      margin: 40px auto;
+   }
+}
+
+
+/* --------------------------- (ABOUT) --------------------------- */
+
+/* 992-1200px */
+@media screen and (max-width: 1200px) {
+	.foto__trap img {
+      width: 100%;
+   }
+}
+
+/* 768-992px */
+@media screen and (max-width: 991px) {
+   .about h1 {
+      text-align: center;
+   }
+   .path {
+      display: flex;
+      justify-content: center;
+   }
+   .path__arrow {
+      margin: 2px 2px 0 2px;
+  }
+}
+/* 576-768px */
+@media screen and (max-width: 767px) {
+   
+}
+
+/* 320-576px */
+@media screen and (max-width: 575px) {
+   .about__menu {
+      flex-direction: column;
+      align-items: center;
+      margin-top: 50px;
+   }
+   .advantages__chapter {
+      flex-direction: column;
+      margin-top: 3px;
+   }
+   .general-text {
+      width: 100%;
+   }
+   .advantages__text_first {
+      margin-bottom: 25px;
+   }
+   .foto__trap {
+      margin-bottom: 20px;
+   }
+}
+
+
+/* --------------------------- (SERVICES) --------------------------- */
+
+/* 992-1200px */
+@media screen and (max-width: 1200px) {
+	
+}
+
+/* 768-992px */
+@media screen and (max-width: 991px) {
+   .services h1 {
+      text-align: center;
+   }
+   .juristic__title {
+      margin-top: 38px;
+   }
+   .consultation {
+     width: 100%;
+   }
+   .navigation {
+     width: 100%;
+   }
+   .navigation h6::after {
+      width: 690px;
+   }
+   .navigation a::after {
+     width: 690px;
+     margin-top: 1%;
+   }
+}
+/* 576-768px */
+@media screen and (max-width: 767px) {
+   .juristic__title {
+      margin-top: 18px;
+   }
+   .navigation h6::after {
+      width: 510px;
+   }
+   .navigation a::after {
+      width: 510px;
+   }
+}
+
+/* 320-576px */
+@media screen and (max-width: 575px) {
+   .services__menu {
+      flex-direction: column;
+      align-items: center;
+      text-align: center;
+      margin-top: 30px;
+   }
+   .juristic__title {
+      text-align: center;
+   }
+   .juristic__title h2 {
+      text-align: center;
+   }
+   .consultation {
+      padding: 10px 0 3px 10px;
+      background: none;
+   }
+   .consultation__number {
+      margin: 8px 0 0 3px;
+      font-size: 13px;
+   }
+   .consultation__btn {
+      width: 129px;
+   }
+   .navigation h6::after {
+      width: 387px;
+   }
+   .navigation a::after {
+      width: 387px;
+   }
+}
+
+
+/* --------------------------- (CONTACTS) --------------------------- */
+
+/* 992-1200px */
+@media screen and (max-width: 1200px) {
+	.map__trap {
+      left:-69px;
+   }
+}
+
+/* 768-992px */
+@media screen and (max-width: 991px) {
+   .contacts h1 {
+      text-align: center;
+   }
+   .map__trap:before {
+      display: none;
+   }
+   .map__trap {
+      position: static;
+      width: 100%;
+   }
+   .map__main {
+      padding: 22px 0 25px;
+  }
+   .map__chapters {
+      width: 397px;
+   }
+}
+/* 576-768px */
+@media screen and (max-width: 767px) {
+   .map__chapters {
+      width: 200px;
+   }
+   .contacts__items {
+      text-align: center;
+   }
+}
+
+/* 320-576px */
+@media screen and (max-width: 575px) {
+   .contacts__menu {
+      flex-direction: column;
+   }
+   .map__bg {
+      background-position: 42%;
+   }
+   .map__bottom {
+      flex-direction: column;
+   }
+   .map__chapters {
+      width: auto;
+      margin-top: 27px;
+   }
+}

@@ -1,0 +1,91 @@
+/* ---------------------- Specification ---------------------- */
+body {
+    font-family: 'Museo Sans 700', sans-serif;
+    font-size: 14px;
+    color: #fff;
+    padding: 0;
+    margin: 0; 
+}
+div, p, form, input, a, span, button {
+	box-sizing: border-box;
+}
+p {
+    margin: 0;
+}
+h1, h2, h3, h4, h5, h6 {
+    color: #081d42;
+}
+h1 {
+    font-size: 58px;
+    margin-top: 92px;
+    margin-left: -4px;
+}
+h2 {
+    font-size: 29px;
+    text-align: center;
+    margin-bottom: 41px;
+}
+h3 {
+    font-size: 24px;
+    font-family: 'Museo Sans 100';
+}
+h4 {
+    font-size: 23px;
+    opacity: 0.4;
+    color: #fff;
+}
+h5 {
+    font-size: 21px;
+}
+h6 {
+    font-size: 19px;
+}
+a {
+    color: #ffffff;
+}
+a:hover {
+    color: #ffffff;
+}
+ul, li {
+    display: block;
+    margin: 0;
+    padding: 0;
+}
+a, a:hover, a:active {
+    text-decoration: none; 
+}
+a, button, li, input, {
+    transition: all 100s ease;
+}
+input, input:hover, input:focus, input:active,
+button, button:hover, button:focus, button:active {
+	outline: none;
+}
+.btn {
+    font-size: 13px;
+    color: #fff;
+	background-color: #1cb883;
+    width: 156px;
+	padding: 8px 0 7px;
+    border-radius: 0px;
+    border: 1px solid #1cb883;
+    border-bottom: 4px solid #149d6f;
+}
+.btn:hover {
+	background: #fff;
+    color: #149d6f;
+    border-bottom: 4px solid #149d6f;
+    border-radius: 2px;
+}
+.btn:hover:active {
+    box-shadow: 0 0 12px rgba(28,184,131,0.5) inset;
+}
+.btn:focus {
+	box-shadow: none;
+}
+.upper-case {
+    text-transform: uppercase;
+}
+.red {
+    color: #b81c31;
+}
