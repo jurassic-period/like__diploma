@@ -354,19 +354,23 @@
     font-size: 38px;
     margin: 0;
 }
-.path {
+.breadcrumb {
+    background: none;
+    padding: 8px 0;
+}
+.breadcrumb-item+.breadcrumb-item::before {
+    content: '→';
+    font-size: 12px;
+    margin: 0 -7px 0 -7px;
+}
+.breadcrumb-item {
     font-family: 'Museo Sans 300';
     font-size: 16px;
     color: #7e838d;
-    margin-top: 8px;
 }
-.path a {
+.breadcrumb-item a {
     text-decoration: underline;
     color: #49556b;
-}
-.path__arrow {
-    font-size: 12px;
-    margin-top: 2px;
 }
 .about__menu {
     margin-top: 17px;
@@ -385,7 +389,7 @@
 
 /* ---------------------- Advantages ---------------------- */
 .advantages {
-    padding: 52px 0 52px;
+    padding: 27px 0 49px;
 }
 .trap-top {
     border-bottom: 2px solid #e5e6e8;
@@ -763,4 +767,4 @@
 
 /* ---------------------- Media Queries ---------------------- */
 
-@import url(media.css);
+/* @import url(media.css); If will need*/

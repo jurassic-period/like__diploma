@@ -90,14 +90,16 @@
                         <h1 class="title-main">
                             О компании
                         </h1>
-                        <div class="path">
-                            <a href="index.html">Главная</a> <!--Тут я заметил что если перенести закрывающий тег для красоты вниз,
-                                 после текста подчёркивание на длинну 1 пробела выходит за текст вправо... как то это не хорошо-->
-                            <span class="path__arrow">
-                                →
-                            </span>
-                            О компании
-                        </div>
+                        <nav aria-label="breadcrumb">
+                            <ol class="breadcrumb">
+                                <li class="breadcrumb-item">
+                                    <a href="index.html">Главная</a>
+                                </li>
+                                <li class="breadcrumb-item active" aria-current="page">
+                                    О компании
+                                </li>
+                            </ol>
+                        </nav>
                     </div>
                     <div class="col-lg-7 col-xl-6">
                         <ul class="about__menu menu-hover d-flex justify-content-around">
@@ -169,9 +171,7 @@
                     <div class="line">
                     </div>
                 </div>
-                <div class="col-lg-3 d-none d-lg-block">
-                    <!--Пустой col-3 чтобы весы из след. ряда не перепрыгивали и не портили мне вёрстку-->
-                </div>
+                <div class="col-lg-3 d-none d-lg-block"></div>
                 <div class="col-lg-1 col-sm-2">
                     <div class="advantages__scale mtop">
                         <img src="images/Scale.png" alt="scale">
