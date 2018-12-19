@@ -27,7 +27,19 @@
     <link rel="stylesheet" href="css/media.css">
 </head>
 <body>
-    <header class="header-main" id="header">
+    <!-- Preloader: Start -->
+    <div id="page-preloader">
+        <div class="cssload-preloader cssload-loading">
+            <span class="cssload-slice"></span>
+            <span class="cssload-slice"></span>
+            <span class="cssload-slice"></span>
+            <span class="cssload-slice"></span>
+            <span class="cssload-slice"></span>
+            <span class="cssload-slice"></span>
+        </div>
+    </div>
+    <!-- Preloader: Finish -->
+    <header class="header-main" id="header" data-type="background" data-speed="6">
         <div class="hat-trap">
             <div class="container">
                 <div class="row align-items-center">
@@ -521,5 +533,8 @@
             </div>
         </div>
     </footer>
+    <script src="js/jquery-3.3.1.min.js"></script>
+    <script src="js/parallax-bg.js"></script>
+    <script src="js/main.js"></script>
 </body>
 </html>
