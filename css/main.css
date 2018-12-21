@@ -66,6 +66,35 @@
     font-size: 26px;
     color: #3f4b60;
 }
+.menu-opened {
+    background-color: rgba(8, 29, 66, 0.8);
+    border-radius: 10px;
+    padding: 20px;
+    flex-direction: column;
+    width: 100%;
+    z-index: 9999;
+    box-shadow: 0 0 40px #00000073;
+    margin: 29px 0px;
+}
+.menu.menu-opened .menu__item {
+    margin-right: 0px;
+    margin-bottom: 10px;
+}
+.menu.menu-opened .menu__item a {
+    color: #fff;
+    font-weight: 700;
+    font-size: 15px;
+    padding: 15px 0;
+    border-bottom: 1px solid rgba(255,255,255,0.6);
+    display: block;
+}
+.menu.menu-opened .menu__item a:hover:after {
+    display: none;
+}
+.menu.menu-opened .menu__item a:hover {
+    color: rgb(184, 28, 49);
+    border-bottom: 1px solid rgba(227,183,32,0.7);
+}
 /* ----------------- Offer ----------------- */
 .offer-trap {
     border-bottom: 16px solid rgba(255, 255, 255, 0.15);
@@ -330,7 +359,48 @@
     margin-top: 67px;
 }
 
-
+/* ---------- Form ----------- */
+.form {
+    font-size: 13px;
+    padding: 49px 0 52px 56px;
+    border-radius: 5px;
+    background-color: #fff;
+}
+.form__title {
+    font-family: 'Museo Sans 700';
+    font-size: 21px;
+    margin: 0 0 11px 19px;
+}
+.form__text {
+    font-family: "Museo Sans Cyrl 300";
+    margin-bottom: 14px;
+    letter-spacing: 0.73px;
+    width: 300px;
+    text-align: center;
+}
+.form__input {
+    font-family: "Museo Sans Cyrl 300";
+    font-size: 14px;
+    color: #404048;
+    width: 268px;
+    padding: 12px 0;
+    border: none;
+    border-bottom: 1px solid #acacac;
+    opacity: 0.7;
+    margin-bottom: 11px;
+}
+.form__button {
+    width: 306px;
+    margin-top: 33px;
+    display: flex;
+    justify-content: center;
+    font-size: 15px;
+    font-family: "Museo Sans Cyrl 700";
+}
+.arcticmodal-overlay {
+    background-color: rgb(31, 35, 61)!important;
+    opacity: 0.85!important;
+}
 
 
 
@@ -474,7 +544,7 @@
 
 /* ---------------------- Services ---------------------- */
 .services {
-    padding: 63px 0 65px;
+    padding: 63px 0 42px;
 }
 .services__menu {
     margin: 7px 6px 0 25px;
@@ -604,7 +674,7 @@
 }
 .navigation {
     background-color: #fafafb;
-    padding: 50px 0 50px 0;
+    padding: 50px 0 110px 0;
     position: relative;
 }
 .navigation h6 {
@@ -615,7 +685,10 @@
     border-bottom: 1px solid rgba(227, 228, 230, 0.9);
     padding: 0 0 41px 26px;
 }
-.navigation li:before {
+.navigation__elements {
+    margin-bottom: 53px;
+}
+.navigation__element:before {
     content: '';
     display: block;
     width: 11px;
@@ -625,7 +698,7 @@
     opacity: 0.57;
     margin-right: 17px;
 }
-.navigation li {
+.navigation__element {
     position: relative;
     padding: 8px 0 9px 27px;
     
@@ -633,14 +706,115 @@
     align-items: center;
     border-bottom: 1px solid rgba(227, 228, 230, 0.9);
 }
+.navigation__element:hover {
+    text-decoration: underline;
+}
 .navigation a {
     color: #747487;
     font-size: 15px;
     letter-spacing: 0.02em;
     display: block;
 }
-.navigation li:hover {
-    text-decoration: underline;
+.slider__card {
+    text-align: center;
+    padding: 0 27px;
+}
+.slider__card img {
+    margin: 26px auto 13px;
+    border: 5px solid #656e8d;
+    border-radius: 100px;
+}
+.slider__title {
+    color: #58647a;
+    font-size: 18px;
+    opacity: 0.68;
+    margin: 0 0 2px 26px;
+    text-align: left;
+}
+.slider__name {
+    font-size: 15px;
+    color: #747487;
+}
+.slider__text {
+    font-size: 13px;
+    color: #404048;
+    font-family: 'Museo Sans 300';
+    margin: 10px 24px;
+    line-height: 1.3em;
+}
+.slider__facebook i {
+    color: #2c60a0;
+    font-size: 14px;
+    border: 1px solid transparent;
+    border-radius: 100px;
+    padding: 4px 7px;
+}
+.slider__facebook i:hover {
+    border: 1px solid #2c60a0;
+    border-radius: 100px;
+    background: #2c60a0;
+    color: #fff;
+}
+.slick-prev, .slick-next {
+    font-size: 25px;
+    color: #404048;
+}
+.slick-prev {
+    left: 27px;
+    top: 99px;
+    z-index: 2;
+}
+.slick-prev:before {
+    display: none;
+}
+.slick-prev:focus {
+    color: #404048;
+}
+.slick-prev:active {
+    color: #404048;
+}
+.slick-prev:hover {
+    color: #404048;
+    left: 23px;
+    transition: all 0.5s ease;
+}
+.slick-next {
+    right: 23px;
+    top: 99px;
+}
+.slick-next:before {
+    display: none;
+}
+.slick-next:focus {
+    color: #404048;
+}
+.slick-next:active {
+    color: #404048;
+}
+.slick-next:hover {
+    color: #404048;
+    right: 19px;
+    transition: all 0.5s ease;
+}
+.slick-next:hover:active {
+    color: #404048;
+}
+.slick-dots li button:before {
+    font-family: 'slick';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 11px;
+    height: 11px;
+    content: '';
+    opacity: 0.45;
+    background-color: #8b9ab7;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+.slick-dots {
+    bottom: -39px;
+    margin: 0 0 0 5px;
 }
 
 
